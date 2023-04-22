@@ -10,5 +10,7 @@ n = int(input())
 m = int(input())
 k = int(input())
 
-if k == m or k == n: print('Yes')
-else: print('No')
+if k == m or k == n: 
+    print('Yes')
+else: 
+    print('No')

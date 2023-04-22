@@ -1,5 +1,5 @@
-# -----Задача №9. 
-# По данному целому неотрицательному n вычислите значение n!. N! = 1 * 2 * 3 * … * N (произведение всех
+# -----Задача №9.
+# По данному целому неотрицательному n вычислите значение n!. N! = 1 * 2 * 3 * ... * N (произведение всех
 # чисел от 1 до N) 0! = 1 Решить задачу используя цикл while
 #     Input: 5
 #     Output: 120
@@ -8,14 +8,14 @@
 # N = 1
 # i=1
 # if n > 0:
-    
 #     while i < n+1:
 #         N = N*i
 #         i+=1
 #     print(N)
 # else: 
 #     print('Введите корректное число')
-        
+
+  
         
 # --------Задача №13. Решение в группах
 # Уставшие от необычно теплой зимы, жители решили узнать,
@@ -42,9 +42,9 @@
 # if 1 <= N <= 100:
 #     for i in range(N):
 #         t = int(input())
-#         if t > 0: 
+#         if t > 0:
 #             sum+=1
-#             if sum > max: max = sum
+#             if sum > max: max = sum         
 #         else: sum = 0
 # print(max)
 
@@ -63,8 +63,8 @@
 #           Input: 5 -> 5 1 6 5 9
 #           Output: 1 9
 
-N = int(input())
-lst = []
-for i in range (N):
-    lst.append(int(input()))
-print(max(lst), min(lst))
+# N = int(input())
+# lst = []
+# for i in range (N):
+#     lst.append(int(input()))
+# print(max(lst), min(lst))
